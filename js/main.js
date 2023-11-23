@@ -1,3 +1,19 @@
+// MenuMobile
+const menuBtn = document.querySelector('.menu')
+const menuContainer = document.querySelector('.menuMobile')
+const closeBtn = document.querySelector('.menuMobile svg')
+
+menuBtn.addEventListener('click', showMenu)
+closeBtn.addEventListener('click', () => {
+	showMenu()
+})
+
+function showMenu() {
+	menuContainer.classList.toggle('hide')
+}
+
+
+
 // About tabs
 const tabsContainer = document.querySelector(".about-tabs"),
 aboutSection = document.querySelector(".about-section");
