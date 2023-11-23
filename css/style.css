@@ -932,9 +932,16 @@ contact
 
 /* responsive */
 @media(max-width:991px){
-    .container{
+    .container,
+    .menuMobile .container{
         padding: 0;
     }
+
+    .menuMobile svg{
+        top: 30px;
+        right: 30px;
+    }
+    
     .navbar{
         padding: 0 15px;
     }
