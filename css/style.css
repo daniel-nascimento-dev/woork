@@ -1018,18 +1018,26 @@ contact
         margin-bottom: 30px;
     }
     .section-title h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     .home-text h1{
-        font-size: 30px;
+        font-size: 28px;
     }
     .home-text h2{
         font-size: 18px;
-    }       
+    }  
+    
+    .about-text .skill-item{
+        font-size: 0.9rem;
+    }
 
     .contact-form .w-50{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .contact-section .input-group .input-control{
+        font-size: 14px;
     }
 
     .contact-section .submit-btn{
@@ -1051,4 +1059,3 @@ contact
         max-width: 100%;
     }
 }
-

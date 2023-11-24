@@ -4,6 +4,7 @@ const menuContainer = document.querySelector('.menuMobile')
 const closeBtn = document.querySelector('.menuMobile svg')
 
 menuBtn.addEventListener('click', showMenu)
+
 closeBtn.addEventListener('click', () => {
 	showMenu()
 })
@@ -12,6 +13,14 @@ function showMenu() {
 	menuContainer.classList.toggle('hide')
 }
 
+
+menuContainer.addEventListener('click', (e) => {
+
+	if(e.target.classList.contains("navbar-element")) {
+		showMenu();
+	}
+
+})
 
 
 // About tabs

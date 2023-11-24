@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+
     <!-- css custom -->
     <link rel="stylesheet" href="css/style.css">
     
     <!-- css line icons -->
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
 
-    <title>Daniel Nascimento - Portfolio</title>
+    <title>Daniel Nascimento</title>
 </head>
 <body>
 
+    <!-- menuMobile start -->
     <div class="menuMobile">
         <div class="container">
             <?xml version="1.0" encoding="utf-8"?>
@@ -25,13 +33,14 @@
                 c0.4,0.4,1,0.7,1.6,0.7c0.6,0,1.2-0.2,1.6-0.7c0.9-0.9,0.9-2.3,0-3.2L35.2,32z"/>
             </svg>
             <ul>
-                <a href="#contact">home</a>
-                <a href="">sobre</a>
-                <a href="">portfólio</a>
-                <a href="">contato</a>
+                <a href="#home" class="navbar-element">home</a>
+                <a href="#about" class="navbar-element">sobre</a>
+                <a href="#portfolio" class="navbar-element">portfólio</a>
+                <a href="#contact" class="navbar-element">contato</a>
             </ul>
         </div>
     </div>
+    <!-- menuMobile end -->
 
     <main class="main">
         <div class="container">
@@ -48,7 +57,7 @@
         </div>
         
         <!-- home section start -->
-        <section class="home-section align-items-center">
+        <section class="home-section align-items-center" id="home">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="home-text">
@@ -70,7 +79,7 @@
         <!-- home section end -->
 
         <!-- about section start -->
-        <section class="about-section section-padding">
+        <section class="about-section section-padding" id="about">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
